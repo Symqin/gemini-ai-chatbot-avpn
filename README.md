@@ -22,8 +22,8 @@ Pastikan Anda telah menginstal beberapa alat berikut sebelum menjalankan proyek 
 1. **Clone Repository**  
    Buka terminal Anda dan clone repositori ini:
    ```bash
-   git clone https://github.com/Symqin/gemini-ai-chatbot.git
-   cd gemini-ai-chatbot
+   git clone https://github.com/Symqin/gemini-ai-chatbot-avpn.git
+   cd gemini-ai-chatbot-avpn
    ```
 
 2. **Instal Dependencies**  
