@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MindTree- Professional Mental Health Support</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="chat-container">
+    <header class="chat-header">
+      <div class="avatar">
+        <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17 11C19.2091 11 21 9.20914 21 7C21 4.79086 19.2091 3 17 3C16.5369 3 16.0968 3.08053 15.6883 3.2263C14.7709 1.30907 12.8258 0 10.5 0C7.46243 0 5 2.46243 5 5.5C5 6.04694 5.07971 6.57468 5.22816 7.07287C2.82098 7.55018 1 9.64687 1 12.1667C1 14.8377 3.16226 17 5.83333 17H11V24H13V17H17.1667C18.8236 17 20.1667 15.6569 20.1667 14C20.1667 12.3431 18.8236 11 17.1667 11H17Z"/>
+        </svg>
+      </div>
+      <div class="header-info">
+        <h1>MindTree</h1>
+        <p>Layanan Dukungan Mental Profesional</p>
+      </div>
+    </header>
+
+    <main class="chat-body" id="chat-body">
+      <div class="message bot">
+        <div class="bubble">
+          Halo. Saya MindTree AI, asisten virtual yang siap memberikan dukungan dan pendampingan psikologis untuk Anda. Ada yang ingin Anda ceritakan atau diskusikan hari ini?
+        </div>
+      </div>
+    </main>
+
+    <footer class="chat-footer">
+      <form id="chat-form">
+        <input type="text" id="message-input" placeholder="Ketik pesanmu di sini..." autocomplete="off" required>
+        <button type="submit" id="send-btn" aria-label="Kirim Pesan">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.01 21L23 12L2.01 3L2 10L17 12L2 14L2.01 21Z" fill="currentColor"/>
+          </svg>
+        </button>
+      </form>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
